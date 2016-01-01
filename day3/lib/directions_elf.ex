@@ -47,6 +47,6 @@ defmodule DirectionsElf do
 
   defp translate_direction(?^), do: :north
   defp translate_direction(?>), do: :east
-  defp translate_direction(?V), do: :south
+  defp translate_direction(?v), do: :south
   defp translate_direction(?<), do: :west
 end
